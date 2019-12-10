@@ -1,0 +1,27 @@
+{
+  "name": "custom-amplify",
+  "version": "0.0.27",
+  "description": null,
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/vvzl6jkjw0",
+  "main": "index.js",
+  "dependencies": {
+    "aws-amplify": "0.3.3",
+    "aws-amplify-react": "0.1.43",
+    "awsmobile-cli": "1.1.4",
+    "react": "16.1.1",
+    "react-dom": "16.1.1",
+    "react-transition-group": "2.2.1",
+    "reactstrap": "5.0.0-alpha.3",
+    "recompose": "0.27.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
