@@ -14,8 +14,8 @@ import {
 } from 'reactstrap'
 
 class ConfirmSignUp extends AmpConfirmSignUp {
-  showComponent(themeIn) {
-    const { error, theme, ...rest } = this.props
+  showComponent(/*themeIn*/) {
+    const { error, theme/*, ...rest*/ } = this.props
     const { hide } = this.props
     const username = this.usernameFromAuthData()
 

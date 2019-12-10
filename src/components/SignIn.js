@@ -3,9 +3,9 @@ import { SignIn as AmpSignIn } from 'aws-amplify-react'
 import { I18n } from 'aws-amplify'
 
 class SignIn extends AmpSignIn {
-  constructor(props) {
+  /*constructor(props) {
     super(props)
-  }
+  }*/
 
   handleStateChange = foo => {
     console.log('f', foo)
@@ -15,7 +15,7 @@ class SignIn extends AmpSignIn {
     console.log('f', foo)
   }
 
-  showComponent(themeIn) {
+  showComponent(/*themeIn*/) {
     const { error, fetching = !true } = this.state // SOMETHING LIKE THIS WOULD BE IDEAL
     return (
       <div>

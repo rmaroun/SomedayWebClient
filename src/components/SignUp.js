@@ -10,8 +10,7 @@ import {
   FormGroup,
   InputGroup,
   InputGroupAddon,
-  Input,
-  Alert
+  Input
 } from 'reactstrap'
 
 class SignUp extends AmpSignUp {
@@ -24,8 +23,8 @@ class SignUp extends AmpSignUp {
       .catch(err => this.error(err))
   }
 
-  showComponent(themeIn) {
-    const { theme, ...rest } = this.props
+  showComponent(/*themeIn*/) {
+    //const { theme , ...rest } = this.props
 
     return (
       <Card>

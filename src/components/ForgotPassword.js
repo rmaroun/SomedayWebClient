@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { render } from 'react-dom'
+import React from 'react'
+// import { render } from 'react-dom'
 import { I18n } from 'aws-amplify'
 import { ForgotPassword as AmpForgotPassword } from 'aws-amplify-react'
 import {
@@ -20,8 +20,8 @@ class ForgotPassword extends AmpForgotPassword {
     super.send()
   }
 
-  showComponent(themeIn) {
-    const { error, theme, ...rest } = this.props
+  showComponent(/*themeIn*/) {
+    const { error, /*theme, ...rest*/ } = this.props
 
     return (
       <Card>
